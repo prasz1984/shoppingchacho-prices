@@ -1,0 +1,45 @@
+name: ShoppingChacho Preise aktualisieren
+
+on:
+  schedule:
+    # Täglich um 08:00 UTC (09:00 Kanaren-Zeit)
+    - cron: '0 8 * * *'
+    # Montags extra um 07:00 für Lidl-Wochenangebote
+    - cron: '0 7 * * 1'
+  # Manuell ausführbar (für Tests)
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Scraper ausführen
+        run: python scraper/scrape.py
+
+      - name: Prüfen ob Daten aktualisiert wurden
+        run: |
+          if [ -f data/prices.json ]; then
+            echo "✓ prices.json erstellt"
+            echo "Produktanzahl: $(python -c "import json; d=json.load(open('data/prices.json')); print(d['product_count'])")"
+          else
+            echo "✗ prices.json fehlt!"
+            exit 1
+          fi
+
+      - name: Preise ins Repository committen
+        run: |
+          git config user.name  "ShoppingChacho Bot"
+          git config user.email "bot@shoppingchacho.com"
+          git add data/prices.json
+          # Nur committen wenn es Änderungen gibt
+          git diff --staged --quiet || git commit -m "Preise aktualisiert: $(date '+%d.%m.%Y %H:%M')"
+          git push
