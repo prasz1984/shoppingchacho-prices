@@ -1,0 +1,188 @@
+{
+  "updated": "2026-07-20T23:01:28Z",
+  "updated_human": "20.07.2026 23:01 Uhr",
+  "product_count": 16,
+  "products": [
+    {
+      "id": "lidl_leche",
+      "name": "Leche entera Milbona 1L",
+      "chain": "Lidl",
+      "cat": "lacteos",
+      "price": 0.79,
+      "oldPrice": null,
+      "offer": false,
+      "barcode": "20319895",
+      "thumbnail": ""
+    },
+    {
+      "id": "lidl_aceite",
+      "name": "Aceite oliva virgen extra 1L",
+      "chain": "Lidl",
+      "cat": "aceites",
+      "price": 4.29,
+      "oldPrice": null,
+      "offer": false,
+      "barcode": "20374185",
+      "thumbnail": ""
+    },
+    {
+      "id": "lidl_pan",
+      "name": "Pan de molde 500g",
+      "chain": "Lidl",
+      "cat": "pan",
+      "price": 0.79,
+      "oldPrice": null,
+      "offer": false,
+      "barcode": "",
+      "thumbnail": ""
+    },
+    {
+      "id": "lidl_agua",
+      "name": "Agua mineral 6x1.5L",
+      "chain": "Lidl",
+      "cat": "bebidas",
+      "price": 2.29,
+      "oldPrice": null,
+      "offer": true,
+      "barcode": "",
+      "thumbnail": ""
+    },
+    {
+      "id": "lidl_papel16",
+      "name": "Papel higienico original x16",
+      "chain": "Lidl",
+      "cat": "drogueria",
+      "price": 6.99,
+      "oldPrice": null,
+      "offer": false,
+      "barcode": "20374191",
+      "thumbnail": ""
+    },
+    {
+      "id": "lidl_deterg",
+      "name": "Detergente liquido 50 lavados",
+      "chain": "Lidl",
+      "cat": "drogueria",
+      "price": 5.49,
+      "oldPrice": null,
+      "offer": false,
+      "barcode": "",
+      "thumbnail": ""
+    },
+    {
+      "id": "lidl_suav",
+      "name": "Suavizante Formil 80 dosis",
+      "chain": "Lidl",
+      "cat": "drogueria",
+      "price": 2.99,
+      "oldPrice": null,
+      "offer": false,
+      "barcode": "",
+      "thumbnail": ""
+    },
+    {
+      "id": "lidl_gel",
+      "name": "Gel de bano Cien 1L",
+      "chain": "Lidl",
+      "cat": "higiene",
+      "price": 1.49,
+      "oldPrice": null,
+      "offer": false,
+      "barcode": "",
+      "thumbnail": ""
+    },
+    {
+      "id": "lidl_champu",
+      "name": "Champu Cien 300ml",
+      "chain": "Lidl",
+      "cat": "higiene",
+      "price": 0.99,
+      "oldPrice": null,
+      "offer": false,
+      "barcode": "",
+      "thumbnail": ""
+    },
+    {
+      "id": "lidl_pizza",
+      "name": "Pizza margarita Italiamo",
+      "chain": "Lidl",
+      "cat": "congelados",
+      "price": 1.79,
+      "oldPrice": null,
+      "offer": false,
+      "barcode": "",
+      "thumbnail": ""
+    },
+    {
+      "id": "lidl_helado",
+      "name": "Helado vainilla 1L",
+      "chain": "Lidl",
+      "cat": "congelados",
+      "price": 1.99,
+      "oldPrice": null,
+      "offer": false,
+      "barcode": "",
+      "thumbnail": ""
+    },
+    {
+      "id": "lidl_yogur",
+      "name": "Yogur Milbona natural x8",
+      "chain": "Lidl",
+      "cat": "lacteos",
+      "price": 1.29,
+      "oldPrice": null,
+      "offer": false,
+      "barcode": "",
+      "thumbnail": ""
+    },
+    {
+      "id": "lidl_arroz",
+      "name": "Arroz redondo 1kg",
+      "chain": "Lidl",
+      "cat": "pan",
+      "price": 0.89,
+      "oldPrice": null,
+      "offer": false,
+      "barcode": "",
+      "thumbnail": ""
+    },
+    {
+      "id": "lidl_pasta",
+      "name": "Espaguetis 500g",
+      "chain": "Lidl",
+      "cat": "pan",
+      "price": 0.45,
+      "oldPrice": null,
+      "offer": false,
+      "barcode": "",
+      "thumbnail": ""
+    },
+    {
+      "id": "lidl_pollo",
+      "name": "Pechuga de pollo 1kg",
+      "chain": "Lidl",
+      "cat": "carne",
+      "price": 4.99,
+      "oldPrice": null,
+      "offer": false,
+      "barcode": "",
+      "thumbnail": ""
+    },
+    {
+      "id": "lidl_cocina",
+      "name": "Papel cocina 2 rollos",
+      "chain": "Lidl",
+      "cat": "drogueria",
+      "price": 1.09,
+      "oldPrice": null,
+      "offer": false,
+      "barcode": "",
+      "thumbnail": ""
+    }
+  ],
+  "barcodeIndex": {
+    "20319895": "lidl_leche",
+    "20374185": "lidl_aceite",
+    "20374191": "lidl_papel16"
+  }
+}
